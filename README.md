@@ -52,12 +52,12 @@ _____
 **Figure 5**: Filtering the sightings table by a country value.
 _____
 
-6. Finally, a user can filter the sightings table by the shape of an aircraft. Here, we have searched for aircraft that has a "circle" shape.
+6. Finally, a user can filter the sightings table by the shape of an aircraft. Here, we have searched for aircraft that have a "circle" shape.
 _____
 
 <img width="1440" alt="shape_filter" src="https://user-images.githubusercontent.com/80941606/193435210-2de34e21-2c05-4a8b-98e6-698b51c3caec.png">
 
-**Figure 6**: Filtering the sightings table by a shape value.
+**Figure 6**: Filtering the sightings table by an aircraft shape value.
 _____
 
 Note that the filter's input fields are case-sensitive.
@@ -66,9 +66,9 @@ Note that the filter's input fields are case-sensitive.
 In summary, this webpage provides a quick and easy method for filtering through a large dataset of UFO sightings.
 
 ### Drawbacks
-One drawback of this design is that the filter's input fields are case-sensitive. Consequently, a user's search may yield null results even though data does exist for that user's particular search criteria. For example, inputing state as "CA" instead of "ca" will return null results even though we have seen above that there are UFO sightings in the state of California.
+One drawback of this design is that the filter's input fields are case-sensitive. Consequently, a user's search may yield null results even though data does exist for that user's particular search criteria. For example, inputing a state as "CA" instead of "ca" will return null results even though we have seen above that there are UFO sightings in the state of California.
 
 ### Further Development
 Two recommendations for further development are:
-* The filter's input fields can convert all inputs to lower case so that the table can return non-null results for data that exists within the dataset as described above.
-* The table's data can be graphed so that a user can see UFO sighting trends across parameters.
+* The filter's input fields can convert all inputs to lower case so that the table can return non-null results for data that exists within the dataset as described above, and
+* The table's data can be graphed so that a user can see UFO sighting trends across the table's fields.
